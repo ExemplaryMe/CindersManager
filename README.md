@@ -6,7 +6,7 @@ CindersManager.bat is the new script written with the help of ChatGPT, can proba
 
 # Pre-Req's for Script Use
 Needs to live in `DARK SOULS III\`
-Folders that must exist inside of `DARK SOULS III` "`DARK SOULS III\Game`","`DARK SOULS III\Mods`,"`DARK SOULS III\Mods\Cinders`" `DARK SOULS III\Saves`, `DARK SOULS III\Saves\Clean` `DARK SOULS III\Saves\Cinders` (create them if they don't exist) - this script won't touch the actual Cinders folder in `DARK SOULS III\Game\Cinders`
+Folders that must exist inside of `DARK SOULS III`, `DARK SOULS III\Game`,`DARK SOULS III\Mods`,`DARK SOULS III\Mods\Cinders`,`DARK SOULS III\Saves`, `DARK SOULS III\Saves\Clean`, `DARK SOULS III\Saves\Cinders` (create them if they don't exist) - this script won't touch the actual Cinders folder in `DARK SOULS III\Game\Cinders`
 
 # Instructions READ FIRST AND CAREFULLY
 
@@ -15,11 +15,11 @@ This script is intended for the people who switch between two Steam Accounts in 
 I use https://github.com/TCNOco/TcNo-Acc-Switcher because it is godtier
 
 # How Saves are Handled
-Saves are kept in '%appdata%\DarkSoulsIII' and the game creates a folder with long string of names associated to the currently logged in Steam Account
+Saves are kept in `%appdata%\DarkSoulsIII` and the game creates a folder with long string as a name, associated to the currently logged in Steam Account
 Make note of which folder is your "Clean" save (non-Cinders steam account) and which is your "Cinders" save (Cinders steam account)
-Stay in your current Steam account, launch DS3 without Cinders, Copy your "Clean" save folder to `DARK SOULS III\Saves\`
-Switch to Cinders Steam account, launch DS3 with Cinders, copy your "Cinders" save folder to `DARK SOULS III\Saves\`
-You should have two folders inside of Saves, "Clean" and "Cinders" and they both contain differently named save folders that match each Steam profile.
+Stay in your current Steam account, launch DS3 without Cinders, Copy your "Clean" save folder to `DARK SOULS III\Saves\Clean` from `%appdata%\DarkSoulsIII`, delete after copying.
+Switch to Cinders Steam account, launch DS3 with Cinders, copy your "Cinders" save folder to `DARK SOULS III\Saves\Cinders` from `%appdata%\DarkSoulsIII`, delete after copying.
+You should have two folders inside of `Dark Souls III\Saves`, `Clean` and `Cinders` and they both contain differently named save folders that match each Steam profile.
 
 # Setup & Use
 The script lives at the root of your `Dark Souls III` folder.
