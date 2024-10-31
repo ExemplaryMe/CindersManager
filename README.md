@@ -28,4 +28,4 @@ EBABLE / DISABLE - It will move the Cinders mod files (not the Mod folder itself
 
 Enabling will copy the current "Clean" save folder from `%appdata%\DarkSoulsIII` to your `Dark Souls III\Saves\Clean path`, move modengine.ini, hoodiepatcher.ini, etc from `Mods\Cinders` to Game (thus enabling the mod) and remind you to switch Steam logins, as well as copy your "Cinders" save folder from Saves\Cinders to `%appdata%\DarkSoulsIII`
 
-Disabling the mod will do the same but in reverse, your previously copied Cinders save is copied back to `DARK SOULS III\Saves\Cinders`, your `DARK SOULS III\Saves\Clean` save is copied back, the mod files are moved out of `Game` back to `Mods\Cinders`.
+Disabling will do the same the opposite, your previously copied Cinders save is copied back to `DARK SOULS III\Saves\Cinders`, your `DARK SOULS III\Saves\Clean` save is copied back, the mod files are moved out of `Game` back to `Mods\Cinders`.
