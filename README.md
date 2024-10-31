@@ -1,6 +1,6 @@
 # CindersManager
 This script is a result of using ChatGPT to help me organize my idea for managing my Cinders for DarkSoulsIII.
-OG script is included for historical purposes
+OG script is included for historical purposes, that I tried writing, badly, and use registry keys :KEKW:
 
 CindersManager.bat is the new script written with the help of ChatGPT, can probably still be improved.
 
